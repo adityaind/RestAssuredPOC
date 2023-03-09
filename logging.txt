@@ -1,0 +1,106 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "aditya",
+    "job": "tester"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Feb 2023 00:54:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"52-3PMhz8ii1JZW0ovIlPqplNu8Rw4"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3%2FMZ2TLUXWUdwqHxqZe%2Fi%2B36zoNpztg%2BwEY%2BjThO2p5CYGHLmEbOHa2zQDGGexfWokNos%2B3KZod4iAXh8KRxpjwCCwu4ZOZIjZ3%2FkIl%2B%2FZlT4uEaH9mlt4EoCg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79aa8de8c8871831-EWR
+
+{
+    "name": "aditya",
+    "job": "tester",
+    "id": "416",
+    "createdAt": "2023-02-17T00:54:53.713Z"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "nupur",
+    "job": "developer"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Feb 2023 00:54:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-VD5DzYi8bTobPXY392iEhAfeFcs"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uFVpT60uCAPFP1AKQnt2VAu3aFDn2xOemkauX%2FPLNB2cifhNTWRSeSBVy8CMM8rb5izsgMXoVuX4jTN%2BvN1MBmbEP7tbU6kF4brA0H4mp%2FvWbDscQe2vt4cY2A%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79aa8df8fd201849-EWR
+
+{
+    "name": "nupur",
+    "job": "developer",
+    "id": "413",
+    "createdAt": "2023-02-17T00:54:56.324Z"
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/413
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	usrid=413
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 17 Feb 2023 00:54:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: MISS
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DDxe4PXfyNa%2FD1bL2qojgPQ5aXwwEGJd0JNPt8pYz0T0FW67ByFK6qSDYYM%2FCJqEq7LRqnYMFsTUWhUHYA5ZQRslJ2pq%2FEjF9RkeNS2%2B1xL%2FmjMFwf6x7VBefg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 79aa8dfcb8bdc44d-EWR
+
+{
+    
+}
